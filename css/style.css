@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,600");
+/* line 6, ../scss/style.scss */
 body {
   font-family: Open Sans;
   padding: 0;
@@ -7,6 +8,7 @@ body {
   width: 100%;
 }
 
+/* line 14, ../scss/style.scss */
 .nav {
   display: block;
   margin: 0 auto;
@@ -14,31 +16,37 @@ body {
   padding-top: 2em;
 }
 
+/* line 21, ../scss/style.scss */
 .nav li {
   display: inline-block;
   font-size: 1em;
   font-family: Open Sans;
 }
+/* line 25, ../scss/style.scss */
 .nav li a {
   cursor: pointer;
   color: #fff;
   padding: .5em 1.5em .5em 1em;
   font-weight: 100;
 }
+/* line 31, ../scss/style.scss */
 .nav li a:hover, .nav li a:focus {
   background: none;
 }
 
+/* line 37, ../scss/style.scss */
 .nav li:nth-child(1), .nav li:nth-child(2) {
   border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+/* line 41, ../scss/style.scss */
 .land {
   position: relative;
   height: 100vh;
   width: 100%;
   background: #039BE5;
 }
+/* line 47, ../scss/style.scss */
 .land .intro {
   height: auto;
   width: auto;
@@ -46,18 +54,20 @@ body {
   display: block;
   position: relative;
   top: 47%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+/* line 56, ../scss/style.scss */
 .land .intro img {
   height: 10em;
   width: 10em;
 }
+/* line 60, ../scss/style.scss */
 .land .intro .logo {
   height: 5.5em;
   border-left: 1px solid #fff;
   display: inline-block;
 }
+/* line 65, ../scss/style.scss */
 .land .intro .logo h3 {
   padding-left: .65em;
   display: inline-block;
@@ -65,31 +75,38 @@ body {
   font-weight: 100;
   color: #fff;
 }
+/* line 73, ../scss/style.scss */
 .land .intro a {
   display: inline-block;
 }
 
+/* line 79, ../scss/style.scss */
 #about {
   padding: 3em 4em;
   margin-bottom: 5em;
 }
+/* line 83, ../scss/style.scss */
 #about h1 {
   font-weight: 200;
 }
+/* line 86, ../scss/style.scss */
 #about h4 {
   font-weight: 300;
 }
 
+/* line 91, ../scss/style.scss */
 .parts {
   background: rgba(255, 255, 255, 0.5);
   padding: 2em;
   margin-top: 2em;
 }
 
+/* line 97, ../scss/style.scss */
 .s-img {
   background-size: cover;
 }
 
+/* line 102, ../scss/style.scss */
 .screenshot img {
   display: block;
   height: 30em;
@@ -98,21 +115,26 @@ body {
   margin: -5em auto;
 }
 @media (max-width: 500px) {
+  /* line 102, ../scss/style.scss */
   .screenshot img {
     height: 20em;
   }
 }
 
+/* line 113, ../scss/style.scss */
 #download {
   padding: 4em;
   margin-top: 4em;
 }
+/* line 116, ../scss/style.scss */
 #download h1 {
   font-weight: 200;
 }
+/* line 119, ../scss/style.scss */
 #download h4 {
   font-weight: 300;
 }
+/* line 122, ../scss/style.scss */
 #download .d-logo {
   width: 100%;
   margin: 0 auto;
@@ -120,26 +142,29 @@ body {
   text-align: center;
   margin-top: 2em;
 }
+/* line 129, ../scss/style.scss */
 #download .d-logo .logo {
   display: inline-block;
   padding: 0 .75em;
 }
+/* line 133, ../scss/style.scss */
 #download .d-logo .logo img {
   height: 5em;
   width: auto;
 }
 
+/* line 141, ../scss/style.scss */
 .button {
   padding: .85em 1.5em;
   border: solid thin white;
   text-transform: uppercase;
   background: transparent;
   color: white;
-  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   margin: 0 1em;
   font-weight: 200;
 }
+/* line 151, ../scss/style.scss */
 .button:hover, .button:focus {
   background: #fff;
   color: #039BE5;
@@ -147,8 +172,21 @@ body {
   text-decoration: none;
 }
 
+/* line 158, ../scss/style.scss */
 footer {
   background: #039BE5;
   padding: .5em;
   color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 165, ../scss/style.scss */
+  .wow {
+    visibility: visible !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
 }

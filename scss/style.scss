@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600');
 
 $font: Open Sans;
 $blue: #039BE5;
@@ -159,4 +159,15 @@ footer {
   background: $blue;
   padding: .5em;
   color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+  .wow {
+    visibility: visible !important;
+    -webkit-animation: none !important;
+       -moz-animation: none !important;
+         -o-animation: none !important;
+        -ms-animation: none !important;
+            animation: none !important;
+  }
 }
