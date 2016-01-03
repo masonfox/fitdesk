@@ -49,7 +49,9 @@ function modal(x, y) {
 
 function startSession() {
   audioSession.play();
-  modal('Stand Up', 'fa fa-hand-o-up');
+  $('.sit-config').removeClass('active');
+  $('.stand-config').addClass('active');
+  modal('Stand Up');
   clearInterval(countdown);
   countdown = setInterval(function() {
     startCountdown(sessionSeconds);
@@ -66,7 +68,9 @@ function startSession() {
 
 function startBreak() {
   audioBreak.play();
-  modal('Sit Down', 'fa fa-hand-o-down');
+  $('.stand-config').removeClass('active');
+  $('.sit-config').addClass('active');
+  modal('Sit Down');
   clearInterval(countdown);
   countdown = setInterval(function() {
     startCountdown(restSeconds);

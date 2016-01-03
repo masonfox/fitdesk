@@ -63,7 +63,9 @@ body {
 
 .config {
   display: inline-block;
-  margin: 2em;
+  margin: 2em 0;
+  padding: 1.5em;
+  border-bottom: 2px solid transparent;
 }
 
 h1,
@@ -132,4 +134,8 @@ a:hover {
 #sessionMinus, #breakMinus, #sessionPlus, #breakPlus {
   font-size: 1.25em;
   color: #eee;
+}
+
+.active {
+  border-color: rgba(255,255,255,.5);
 }
