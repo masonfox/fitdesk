@@ -1,14 +1,14 @@
 {
-  "name": "app",
-  "productName": "App",
-  "version": "0.0.0",
+  "name": "FitDesk",
+  "productName": "FitDesk",
+  "version": "1.0.0",
   "description": "",
   "license": "MIT",
-  "repository": "user/repo",
+  "repository": "masonfox/fitdesk",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Mason Fox",
+    "email": "masonfox22@gmail.com",
+    "url": "mason-fox.com"
   },
   "electronVersion": "0.36.0",
   "scripts": {
