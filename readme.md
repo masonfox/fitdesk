@@ -19,5 +19,20 @@ $ npm run build
 
 Builds the app for OS X, Linux, and Windows, using [electron-packager](https://github.com/maxogden/electron-packager).
 
+## Version History
+1.0.0
+- Timer working
+- Stand & Sit
+- Notifications (Not Native)
+- Sounds
+- Start, Pause, Reset Buttons
+- Span time selectors
+
+## Todo
+- Input time selectors
+- Native Notifications (Mac)
+- Menu Tray (Mac)
+- Better Sounds
+
 ## License
 MIT © Mason Fox | mason-fox.com
