@@ -46,13 +46,7 @@ body {
   width: 100%;
   background: #039BE5;
 }
-@media (max-width: 1000px) {
-  /* line 41, ../scss/style.scss */
-  .land {
-    height: 100%;
-  }
-}
-/* line 50, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 .land .intro {
   height: auto;
   width: auto;
@@ -62,18 +56,18 @@ body {
   top: 47%;
   transform: translateY(-50%);
 }
-/* line 59, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 .land .intro img {
   height: 10em;
   width: 10em;
 }
-/* line 63, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 .land .intro .logo {
   height: 5.5em;
   border-left: 1px solid #fff;
   display: inline-block;
 }
-/* line 68, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .land .intro .logo h3 {
   padding-left: .65em;
   display: inline-block;
@@ -81,38 +75,38 @@ body {
   font-weight: 100;
   color: #fff;
 }
-/* line 76, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 .land .intro a {
   display: inline-block;
 }
 
-/* line 82, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 #about {
   padding: 3em 4em;
   margin-bottom: 5em;
 }
-/* line 86, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 #about h1 {
   font-weight: 200;
 }
-/* line 89, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 #about h4 {
   font-weight: 300;
 }
 
-/* line 94, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .parts {
   background: rgba(255, 255, 255, 0.5);
   padding: 2em;
   margin-top: 2em;
 }
 
-/* line 100, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .s-img {
   background-size: cover;
 }
 
-/* line 105, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 .screenshot img {
   display: block;
   height: 30em;
@@ -121,26 +115,26 @@ body {
   margin: -5em auto;
 }
 @media (max-width: 500px) {
-  /* line 105, ../scss/style.scss */
+  /* line 102, ../scss/style.scss */
   .screenshot img {
     height: 20em;
   }
 }
 
-/* line 116, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 #download {
   padding: 4em;
   margin-top: 4em;
 }
-/* line 119, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 #download h1 {
   font-weight: 200;
 }
-/* line 122, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 #download h4 {
   font-weight: 300;
 }
-/* line 125, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 #download .d-logo {
   width: 100%;
   margin: 0 auto;
@@ -148,18 +142,18 @@ body {
   text-align: center;
   margin-top: 2em;
 }
-/* line 132, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 #download .d-logo .logo {
   display: inline-block;
   padding: 0 .75em;
 }
-/* line 136, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 #download .d-logo .logo img {
   height: 5em;
   width: auto;
 }
 
-/* line 144, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .button {
   padding: .85em 1.5em;
   border: solid thin white;
@@ -170,7 +164,7 @@ body {
   margin: 0 1em;
   font-weight: 200;
 }
-/* line 154, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 .button:hover, .button:focus {
   background: #fff;
   color: #039BE5;
@@ -178,7 +172,7 @@ body {
   text-decoration: none;
 }
 
-/* line 161, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 footer {
   background: #039BE5;
   padding: .5em;
@@ -186,7 +180,7 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-  /* line 168, ../scss/style.scss */
+  /* line 165, ../scss/style.scss */
   .wow {
     visibility: visible !important;
     -webkit-animation: none !important;
