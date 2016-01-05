@@ -28,13 +28,16 @@ Builds the app for OS X, Linux, and Windows, using [electron-packager](https://g
 - Start, Pause, Reset Buttons
 - Span time selectors
 
+1.1.0
+- Native Notifications (Mac)
+- In app notification redesign
+- UI prep for auto-updater
+
 ## Todo
 - Input time selectors
-- Native Notifications (Mac)
 - Menu Tray (Mac)
 - Better Sounds
 - Space bar pauses and resumes timer
-- Auto updates
 
 ## License
 MIT © Mason Fox | mason-fox.com
