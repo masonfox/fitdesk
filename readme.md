@@ -33,6 +33,8 @@ Builds the app for OS X, Linux, and Windows, using [electron-packager](https://g
 - Native Notifications (Mac)
 - Menu Tray (Mac)
 - Better Sounds
+- Space bar pauses and resumes timer
+- Auto updates
 
 ## License
 MIT © Mason Fox | mason-fox.com
