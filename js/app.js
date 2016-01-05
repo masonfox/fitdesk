@@ -8,6 +8,10 @@ var rest = 10;
 var sessionSeconds = session * 60;
 var restSeconds = rest * 60;
 
+// var myNotification = new Notification('Title', {
+//   body: 'Lorem Ipsum Dolor Sit Amet'
+// });
+
 var audioSession = new Audio('http://www.oringz.com/oringz-uploads/sounds-948-just-like-magic.mp3');
 var audioBreak = new Audio('http://www.oringz.com/oringz-uploads/sounds-882-solemn.mp3');
 
@@ -44,7 +48,7 @@ function modal(x, y) {
   $('.modal').addClass('modal-in');
   setTimeout(function(){
     $('.modal').removeClass('modal-in');
-  }, 2000);
+  }, 5250);
 }
 
 function startSession() {
@@ -52,6 +56,9 @@ function startSession() {
   $('.sit-config').removeClass('active');
   $('.stand-config').addClass('active');
   modal('Stand Up');
+  new Notification('Stand Up', {
+    body: 'Your stand cycle has started!'
+  });
   clearInterval(countdown);
   countdown = setInterval(function() {
     startCountdown(sessionSeconds);
@@ -71,6 +78,9 @@ function startBreak() {
   $('.stand-config').removeClass('active');
   $('.sit-config').addClass('active');
   modal('Sit Down');
+  new Notification('Sit Down', {
+    body: 'Your sit cycle has started!'
+  });
   clearInterval(countdown);
   countdown = setInterval(function() {
     startCountdown(restSeconds);
